@@ -35,3 +35,15 @@
   font-size: 2rem;
   background-color: #712084;
 }
+
+.question {
+  color: #F7921E;
+}
+
+.question:hover .hovered {
+  opacity: 1;
+}
+
+.hovered {
+  opacity: 0;
+}
