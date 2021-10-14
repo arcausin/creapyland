@@ -25,7 +25,6 @@ body {
   font-family: Roboto condensed;
   font-size: 1.2rem;
   padding-top: 2rem;
-  padding-bottom: 5rem;
 }
 
 .h3Title {
@@ -51,4 +50,16 @@ body {
   border: unset;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 5rem;
+}
+
+.question {
+  color: #F7921E;
+}
+
+.question:hover .hovered {
+  opacity: 1;
+}
+
+.hovered {
+  opacity: 0;
 }
